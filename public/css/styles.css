@@ -1,0 +1,48 @@
+.map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.photo-input{
+    display: none;
+}
+.cardcoords{
+    margin-bottom: 10px;
+}
+.lngText{
+    margin-bottom: 0;
+}
+.photo{
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+    /* alineacion horizontal */
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 0;
+}
+.takephoto{
+    padding-left: 2em;
+    font-size: 23px;
+}
+.camera-button{
+    margin-bottom: 10px;
+}
+.camera-button + photo:hover{
+    cursor: pointer;
+ 
+}
+#preview , #previewModal{
+  border:1px solid #ddd;
+  padding:5px;
+  border-radius:2px;
+  background:#fff;
+  width:100% - 7px;
+}
+
+
+
+
+.geotitle{
+    text-align: center;
+}
